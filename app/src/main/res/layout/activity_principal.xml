@@ -46,21 +46,18 @@
             android:id="@+id/txtNumeroDos"
             android:hint="@string/numero_dos" />
 
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cboOperaciones" />
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <Button
-                android:text="@string/resta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnResta"
-                android:layout_weight="1"
-                android:onClick="resta" />
-
-            <Button
-                android:text="@string/suma"
+                android:text="@string/calcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnSuma"

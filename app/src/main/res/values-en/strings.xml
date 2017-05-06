@@ -11,4 +11,7 @@
     <string name="error_uno">Type number two</string>
     <string name="resta">Subtract</string>
     <string name="suma">Add</string>
+    <string name="multiplicacion">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="error_division">Number Two Can not be zero</string>
 </resources>
