@@ -10,4 +10,69 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.holamundo.Principal">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/txtNumeroUno"
+            android:hint="@string/numero_uno" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/txtNumeroDos"
+            android:hint="@string/numero_dos" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/calcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCalcular"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="@string/borrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBorrar"
+                android:layout_weight="0.71" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResultado"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_weight="0.17" />
+    </LinearLayout>
 </RelativeLayout>
