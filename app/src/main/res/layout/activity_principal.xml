@@ -33,7 +33,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:ems="10"
             android:id="@+id/txtNumeroUno"
             android:hint="@string/numero_uno" />
@@ -41,7 +41,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:ems="10"
             android:id="@+id/txtNumeroDos"
             android:hint="@string/numero_dos" />
@@ -52,18 +52,28 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:text="@string/calcular"
+                android:text="@string/resta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/btnCalcular"
-                android:layout_weight="1" />
+                android:id="@+id/btnResta"
+                android:layout_weight="1"
+                android:onClick="resta" />
+
+            <Button
+                android:text="@string/suma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSuma"
+                android:layout_weight="1"
+                android:onClick="calcular" />
 
             <Button
                 android:text="@string/borrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnBorrar"
-                android:layout_weight="0.71" />
+                android:layout_weight="0.71"
+                android:onClick="borrar" />
         </LinearLayout>
 
         <TextView

@@ -4,6 +4,9 @@
     <string name="numero_uno">Número Uno</string>
     <string name="numero_dos">Número Dos</string>
     <string name="resultado">RESULTADO</string>
-    <string name="calcular">CALCULAR</string>
     <string name="borrar">BORRAR</string>
+    <string name="error_uno">"Digite el número uno"</string>
+    <string name="error_dos">"Digite el número uno"</string>
+    <string name="resta">RESTAR</string>
+    <string name="suma">SUMAR</string>
 </resources>
